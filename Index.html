@@ -1330,26 +1330,33 @@
             .sh {
                 margin-bottom: 2.2rem;
             }
-        }
-        /* ≤ 420px — small phones */
-        
-        @media(max-width:420px) {
-            .hero {
-                padding-bottom: 280px;
-            }
-            .si {
-                min-width: 100%;
-                border-right: none !important;
-            }
-            .si:nth-last-child(-n+2) {
-                border-bottom: 1px solid var(--glow);
-            }
-            .si:last-child {
-                border-bottom: none;
-            }
-            .bc {
-                font-size: .8rem;
-                padding: .42rem .95rem;
+            /* ≤ 420px — small phones */
+            @media(max-width:420px) {
+                .hero {
+                    padding-bottom: 409px;
+                }
+                .si {
+                    min-width: 100%;
+                    border-right: none !important;
+                }
+                .si:nth-last-child(-n+2) {
+                    border-bottom: 1px solid var(--glow);
+                }
+                .si:last-child {
+                    border-bottom: none;
+                }
+                .bc {
+                    font-size: .8rem;
+                    padding: .42rem .95rem;
+                }
+                .hero-btns {
+                    position: relative;
+                    margin-top: -80px;
+                    z-index: 10;
+                }
+                .btn-p {
+                    margin-top: 1.2rem;
+                }
             }
         }
     </style>
